@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "HHoao's blog"
-  text: " "
+  text: ""
   tagline: Just do it!
   actions:
     - theme: brand
