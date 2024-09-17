@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "HHoao's blog"
   text: " "
-  tagline: My great project tagline
+  tagline: Just do it!
   actions:
     - theme: brand
       text: Markdown Examples

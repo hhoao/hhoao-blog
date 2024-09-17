@@ -1,0 +1,7 @@
+{
+    "cSpell.enableFiletypes": [
+        "github-actions-workflow"
+    ],
+    "liveServer.settings.root": "/docs/.vitepress/dist",
+    "vite.vitepressBase": "docs"
+}
