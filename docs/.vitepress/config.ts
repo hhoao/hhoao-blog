@@ -17,7 +17,11 @@ export default defineConfig({
       Components({
         resolvers: [ElementPlusResolver()],
       }),
-    ]
+    ],
+    ssr: {
+      // TODO: workaround until they support native ESM
+      noExternal: ['workbox-window', /vue-i18n/, /element-plus/],
+    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -26,8 +30,6 @@ export default defineConfig({
       { text: '博客', link: '/blogs' },
       { text: '关于', link: '/about' }
     ],
-    // outline: false,
-    // aside: false,
 
     sidebar: hideSideBar ? [] : [
       {

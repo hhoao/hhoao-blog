@@ -1,0 +1,20 @@
+.aside-container {
+    right: 10px;
+}
+
+.iconify {
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.aside {
+    position: fixed !important;
+}
+
+.content-container, .content, .container {
+    max-width: 880px !important;
+}
+
+body {
+    cursor: default;
+}
