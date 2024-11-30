@@ -1,3 +1,9 @@
+---
+title: Hello, world!
+author: John Doe
+date: 2021-05-31
+complete: true
+---
 # Markdown Extension Examples
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
